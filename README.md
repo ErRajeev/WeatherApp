@@ -3,7 +3,6 @@
 Description
 The Weather App is a Python-based application that retrieves and displays real-time weather information for a given city. It utilizes the OpenWeatherMap API to fetch weather data and provides the temperature in Celsius along with cloud type for the specified location.
 
-
 Features
 Fetches and displays real-time weather information for a specific city.
 Retrieves temperature in Celsius and cloud type.
@@ -13,15 +12,14 @@ Installation
 Clone the repository: git clone https://github.com/ErRajeev/WeatherApp.git
 Navigate to the project directory: cd weather-app
 
-
 Prerequisites
 Python 3.x installed on your system.
 Required packages: tkinter, requests, PIL
 Install the necessary packages using pip:
 
-
 Copy code
 pip install tkinter requests pillow
+
 Usage
 Run the application: python app.py
 Enter the name of the city for which you want to check the weather in the provided text box.
